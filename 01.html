@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task-1</title>
+    <h1>Task-1</h1>
+    <style>
+        table{
+            border: 1px solid white;
+        }
+        th, td {
+            border: 1px solid white;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <table style="background-color: aqua;">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td style="width: 300px;">Jill</td>
+            <td style="width: 300px;">Smith</td>
+            <td style="width: 300px;">50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+    <style>
+        .outer-list {
+            border: 1px solid #000; 
+            padding: 30px; 
+            width: 200px; 
+        }
+        .outer-list li {
+            margin: 5px 0; 
+        }
+    </style>
+    <ul class="outer-list">
+        <li>Coffee</li>
+        <li>Tea
+            <ul>
+                <li>Black Tea</li>
+                <li>Green Tea</li>
+            </ul>
+        </li>
+        <li>Item 3</li>
+    </ul>
+    <style>
+        .outer-list2{
+            border: 1px solid #000; 
+            padding: 30px;
+            width: 400px;
+        }
+    </style>
+    <ul class="outer-list2">
+        <p>Click any of the following links</p>
+        <tr>
+            <td><a href="/">Open in New|</a></td>
+            <td><a href="/">Open in New|</a></td>
+            <td><a href="/">Open in New</a></td>
+        </tr>
+    </ul>
+    <form>
+        <table>
+          <tr>
+            <td align="right">FullName:</td>
+            <td align="left"><input type="text" name="first" /></td>
+          </tr>
+          <tr>
+            <td align="right">User Name:</td>
+            <td align="left"><input type="text" name="last" /></td>
+          </tr>
+          <tr>
+            <td align="right">Password:</td>
+            <td align="left"><input type="text" name="email" /></td>
+          </tr>
+          <tr>
+            <td align="right">Re Password:</td>
+            <td align="left"><input type="text" name="first" /></td>
+          </tr>
+          <tr>
+            <td align="right">Addres:</td>
+            <td align="left"><input type="text" name="first" /></td>
+          </tr>
+          <tr>
+            <td align="right">Age:</td>
+            <td align="left"><input type="text" name="first" /></td>
+          </tr>
+          <tr>
+            <td align="right">Gender:</td>
+            <td align="left"><input type="text" name="first" /></td>
+          </tr>
+        </table>
+        <input style="margin-bottom: 20px;" type="submit" name="">
+      </form>
+
+      <style>
+        .registration{
+            border: 1px solid black;
+        }
+        th, td {
+            border: 1px solid gray;
+            padding: 8px;
+            text-align: left;
+            width: 20%;
+        }
+        .checkbox-container {
+            display: flex; 
+        }
+        .checkbox-container input[type="checkbox"] {
+            margin-right: 10px; 
+        }
+      </style>
+      <table class="registration">
+        <tr>
+            <td align="center">First Name</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td align="center">Last Name</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td align="center">Email</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td align="center">Password</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td align="center">Re-enter Password</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td align="center">Gender</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td align="center">Age</td>
+            <td><input type="text"></td>
+            
+        </tr>
+        <tr>
+            <td align="center">Phone Number</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td align="center">Address</td>
+            <td><textarea name="yourMessage" id="" cols="20" rows="1"></textarea></td>
+        </tr>
+        <tr>
+            <td align="center">State</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label for="myDropdown">Country</label></td>
+            <td>
+                <select id="myDropdown">
+                    <option value="apple">Choose your country</option>
+                    <option value="banana">India</option>
+                    <option value="cherry">France</option>
+                    <option value="orange">Canada</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">Languages known</td>
+            <td>
+                <form>
+                    <div class="checkbox-container">
+                        <label for="checkbox1">
+                            <input type="checkbox" id="checkbox1" name="checkbox1"> English
+                        </label>
+        
+                        <label for="checkbox2">
+                            <input type="checkbox" id="checkbox2" name="checkbox2"> Kannada
+                        </label>
+        
+                        <label for="checkbox3">
+                            <input type="checkbox" id="checkbox3" name="checkbox3"> Hindi
+                        </label>
+        
+                        <label for="checkbox4">
+                            <input type="checkbox" id="checkbox4" name="checkbox4"> Telegu
+                        </label>
+                    </div>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"> I Hereby declare all given details are true</td>
+        </tr>
+      </table>
+      <button style="margin: 10px 0px 20px 48%;">Register</button>
+    </form>
+
+    <style>
+        .rounded-div {
+            border-radius: 10px; /* You can adjust the radius as needed */
+            background-color: lightgray; /* For visibility */
+            padding: 20px;
+        }
+        .table-container {
+            border-radius: 10px; /* You can adjust the radius as needed */
+            overflow: hidden; /* Ensure the table content doesn't overflow */
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }    
+        td.rounded-cell {
+            border-radius: 10px; /* You can adjust the radius as needed */
+        }
+    </style>
+    <div class="rounded-div" style="background-color: aqua;">
+        <table>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td class="rounded-cell" style="width: 300px;">Jill</td>
+                <td class="rounded-cell" style="width: 300px;">Smith</td>
+                <td style="width: 300px;">50</td>
+            </tr>
+            <tr>
+                <td class="rounded-cell">Eve</td>
+                <td class="rounded-cell">Jackson</td>
+                <td class="rounded-cell">94</td>
+            </tr>
+            <tr>
+                <td class="rounded-cell">John</td>
+                <td class="rounded-cell">Doe</td>
+                <td class="rounded-cell">80</td>
+            </tr>
+        </table>
+    </div>
+    <table style="width: 25%; margin:20px 0 20px 10px;">
+        <tr><td>Home</td></tr>
+        <tr><td>Java</td></tr>
+        <tr><td>CSS</td></tr>
+        <tr><td>HTML</td></tr>
+        <tr><td>Bootstap</td></tr>
+    </table>
+</body>
+</html>
